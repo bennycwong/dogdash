@@ -1,4 +1,4 @@
-class Dashing.Reddit extends Dashing.Widget
+class Dashing.RandomReddit extends Dashing.Widget
 
   ready: ->
     # This is fired when the widget is done being rendered
