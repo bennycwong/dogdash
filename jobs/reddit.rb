@@ -6,7 +6,10 @@ subreddits = {
   'boston' => '/r/bostonterrier/hot.json?limit=100',
   'aww' => '/r/aww_gifs/hot.json?limit=100',
   'puppy' => '/r/puppygifs/hot.json?limit=100',
-  'dog_gif' => '/r/doggifs/hot.json?limit=100'
+  'dog_gif' => '/r/doggifs/hot.json?limit=100',
+  'pug_gif' => '/r/Puggifs/hot.json?limit=100',
+  'duck' => '/r/babyduckgifs/hot.json?limit=100'
+
 }
 
 SCHEDULER.every '10s', first_in: 0 do |job|
